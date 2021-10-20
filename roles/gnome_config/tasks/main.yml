@@ -1,0 +1,4 @@
+---
+# gnome-config tasks
+
+- include: dash-to-dock.yml

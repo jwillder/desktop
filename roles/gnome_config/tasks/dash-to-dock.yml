@@ -1,0 +1,12 @@
+---
+# GNOME dash-to-dock extension modification
+
+- name: Dask-to-dock, hide mounted drives
+  become: yes
+  become_user: "{{ username }}"
+  command: gsettings set org.gnome.shell.extensions.dash-to-dock show-mounts false
+
+- name: Dask-to-dock, minimized on click
+  become: yes
+  become_user: "{{ username }}"
+  command: gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'

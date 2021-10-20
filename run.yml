@@ -3,3 +3,4 @@
   roles:
     - role: grog.package
     - role: snap
+    - role: gnome_config
