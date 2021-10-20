@@ -2,3 +2,4 @@
 - hosts: ubuntu_focal
   roles:
     - role: grog.package
+    - role: snap

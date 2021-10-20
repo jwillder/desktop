@@ -32,3 +32,10 @@ package_list:
   - name: intel-gpu-tools
   - name: intel-media-va-driver-non-free
   - name: vainfo
+
+# snap
+snap_list:
+  - name: 2fa
+  - name: codium
+    classic: yes
+  - name: gimp

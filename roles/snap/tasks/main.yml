@@ -1,0 +1,6 @@
+---
+# snap tasks
+
+- name: Install snaps
+  snap: "{{ item }}"
+  loop: "{{ snap_list }}"
