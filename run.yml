@@ -4,3 +4,4 @@
     - role: grog.package
     - role: snap
     - role: gnome_config
+    - role: mullvad_vpn

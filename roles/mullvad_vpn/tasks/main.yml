@@ -1,0 +1,6 @@
+---
+# mullvad_vpn tasks
+
+- name: Install Mullvad VPN deb package
+  apt:
+    deb: https://mullvad.net/download/app/deb/latest
