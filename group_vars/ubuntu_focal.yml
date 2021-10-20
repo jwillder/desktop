@@ -1,0 +1,34 @@
+---
+# grog.package
+package_list:
+  # cli tools
+  - name: build-essential
+  - name: git
+  - name: pv
+  - name: screen
+  - name: tree
+  - name: unrar
+  - name: xz-utils
+  - name: zfsutils-linux
+  # GNOME
+  - name: chrome-gnome-shell
+  - name: gnome-shell-extension-prefs
+  - name: gnome-tweaks
+  # Apps
+  - name: bleachbit
+  - name: ffmpeg
+  - name: gparted
+  - name: keepassxc
+  - name: mediainfo
+  - name: nextcloud-desktop
+  - name: remmina-plugin-spice
+  - name: squeezelite
+  - name: timeshift
+  - name: vlc
+  - name: wireguard-tools
+  # Games
+  # - name: minecraft-launcher
+  # Accelerated video encoding
+  - name: intel-gpu-tools
+  - name: intel-media-va-driver-non-free
+  - name: vainfo
