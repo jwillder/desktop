@@ -1,0 +1,14 @@
+---
+# tlp tasks
+
+- name: Install tlp
+  package:
+    name:
+    - tlp
+    - acpi-call-dkms
+
+- name: Enable tlp service
+  systemd:
+    name: tlp.service
+    enabled: yes
+    state: started
