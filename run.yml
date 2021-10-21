@@ -5,3 +5,4 @@
     - role: snap
     - role: gnome_config
     - role: mullvad_vpn
+    - role: libvirt

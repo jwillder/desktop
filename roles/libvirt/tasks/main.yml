@@ -1,0 +1,17 @@
+---
+# libvirt tasks
+
+- name: Install packages
+  package:
+    name:
+      - qemu-kvm
+      - libvirt-daemon-system
+      - virt-manager
+      - remmina-plugin-spice
+
+- name: Disable SELinux for QEMU
+  ansible.builtin.lineinfile:
+    path: /etc/libvirt/qemu.conf
+    regexp: '^#security_driver = "selinux"'
+    line: 'security_driver = "none"'
+  notify: Restart libvirtd

@@ -4,6 +4,7 @@ package_list:
   # cli tools
   - name: build-essential
   - name: git
+  - name: locate
   - name: pv
   - name: screen
   - name: tree
@@ -21,7 +22,6 @@ package_list:
   - name: keepassxc
   - name: mediainfo
   - name: nextcloud-desktop
-  - name: remmina-plugin-spice
   - name: squeezelite
   - name: timeshift
   - name: vlc
