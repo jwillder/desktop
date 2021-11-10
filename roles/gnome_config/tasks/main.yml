@@ -2,3 +2,8 @@
 # gnome-config tasks
 
 - include: dash-to-dock.yml
+- include: desktop.yml
+- include: gedit.yml
+- include: keybindings.yml
+- include: nautilus.yml
+- include: shell.yml

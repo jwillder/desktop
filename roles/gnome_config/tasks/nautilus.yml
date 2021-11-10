@@ -1,0 +1,8 @@
+---
+# GNOME nautilus modifications
+
+- name: Nautilus, default folder viewer
+  command: gsettings set org.gnome.nautilus.preferences default-folder-viewer 'list-view'
+
+- name: Nautilus, default list view zoom level
+  command: gsettings set org.gnome.nautilus.list-view default-zoom-level 'small'

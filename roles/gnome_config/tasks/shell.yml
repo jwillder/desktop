@@ -1,0 +1,8 @@
+---
+# GNOME shell modifications
+
+- name: Shell, favourite apps
+  command: gsettings set org.gnome.shell favorite-apps "['org.gnome.Terminal.desktop', 'org.gnome.Nautilus.desktop', 'firefox.desktop', 'thunderbird.desktop', 'codium_codium.desktop']"
+
+- name: Shell, disable desktop icons
+  command: gsettings set org.gnome.shell disabled-extensions "['desktop-icons@csoriano']"

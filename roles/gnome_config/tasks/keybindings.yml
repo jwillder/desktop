@@ -1,0 +1,14 @@
+---
+# GNOME keybindings
+
+- name: Keybindings, launch Firefox (ctrl-alt-w)
+  command: gsettings set org.gnome.settings-daemon.plugins.media-keys www "['<Primary><Alt>w']"
+
+- name: Keybindings, launch Thunderbird (ctrl-alt-e)
+  command: gsettings set org.gnome.settings-daemon.plugins.media-keys email "['<Primary><Alt>e']"
+
+- name: Keybindings, launch home folder (ctrl-alt-f)
+  command: gsettings set org.gnome.settings-daemon.plugins.media-keys home "['<Primary><Alt>f']"
+
+- name: Keybindings, rotate screen (ctrl-alt-r)
+  command: gsettings set org.gnome.mutter.keybindings rotate-monitor "['XF86RotateWindows', '<Control><Alt>r']"

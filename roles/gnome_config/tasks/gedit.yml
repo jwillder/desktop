@@ -1,0 +1,8 @@
+---
+# GNOME gedit modifications
+
+- name: Gedit, set tab size
+  command: gsettings set org.gnome.gedit.preferences.editor tabs-size 2
+
+- name: Gedit, use spaces for tabs\
+  command: gsettings set org.gnome.gedit.preferences.editor insert-spaces true

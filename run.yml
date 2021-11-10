@@ -4,5 +4,7 @@
     - role: grog.package
     - role: snap
     - role: gnome_config
+      become: yes
+      become_user: "{{ username }}"
     - role: mullvad_vpn
     - role: libvirt
