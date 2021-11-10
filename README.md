@@ -12,7 +12,10 @@ From a fresh OS install the following packages need to be manually installed in 
 
 So on Ubuntu run:
 
-`sudo apt install git ansible make`
+```shell
+sudo apt update
+sudo apt install git ansible make`
+```
 
 ## Clone Repo
 
