@@ -9,10 +9,10 @@ package_list:
   - name: screen
   - name: tree
   - name: unrar
-  - name: xz-utils
   - name: zfsutils-linux
   # GNOME
   - name: chrome-gnome-shell
+  - name: dconf-editor
   - name: gnome-shell-extension-prefs
   - name: gnome-tweaks
   # Apps
@@ -22,6 +22,7 @@ package_list:
   - name: keepassxc
   - name: mediainfo
   - name: nextcloud-desktop
+  - name: resolvconf
   - name: squeezelite
   - name: timeshift
   - name: vlc
