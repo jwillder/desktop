@@ -8,3 +8,4 @@
       become_user: "{{ username }}"
     - role: mullvad_vpn
     - role: libvirt
+    - role: ruby

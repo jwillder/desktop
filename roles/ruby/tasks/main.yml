@@ -1,0 +1,14 @@
+---
+# ruby tasks
+
+- name: Install ruby
+  package:
+    name: ruby-full
+
+- name: Set gem install location, add to PATH
+  blockinfile:
+    path: /home/{{ username }}/.bashrc
+    block: |
+      # Install Ruby Gems to ~/gems
+      export GEM_HOME="$HOME/gems"
+      export PATH="$HOME/gems/bin:$PATH"
