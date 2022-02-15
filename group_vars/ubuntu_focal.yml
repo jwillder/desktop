@@ -1,42 +1,54 @@
 ---
 # grog.package
 package_list:
-  # cli tools
+  # General cli programs
   - name: build-essential
+  - name: curl
+  - name: encfs
   - name: git
+  - name: htop
+  - name: iperf3
+  - name: jq
   - name: locate
+  - name: ncdu
   - name: pv
   - name: screen
+  - name: speedtest-cli
   - name: tree
   - name: unrar
+  - name: wavemon
+  # Filesystems
+  - name: btrfs-progs
+  - name: exfat-utils
   - name: zfsutils-linux
+  # Video encoding
+  - name: ffmpeg
+  - name: mediainfo
+  - name: intel-gpu-tools
+  - name: intel-media-va-driver-non-free
+  - name: vainfo
+  # Wireguard
+  - name: wireguard-tools
+  - name: resolvconf
+  # GUI programs
+  - name: bleachbit
+  - name: gparted
+  - name: keepassxc
+  - name: nextcloud-desktop
+  - name: timeshift
+  - name: vlc
   # GNOME
   - name: chrome-gnome-shell
   - name: dconf-editor
   - name: gnome-shell-extension-prefs
   - name: gnome-tweaks
-  # Apps
-  - name: bleachbit
-  - name: ffmpeg
-  - name: gparted
-  - name: keepassxc
-  - name: mediainfo
-  - name: nextcloud-desktop
-  - name: resolvconf
-  - name: squeezelite
-  - name: timeshift
-  - name: vlc
-  - name: wireguard-tools
   # Games
   # - name: minecraft-launcher
-  # Accelerated video encoding
-  - name: intel-gpu-tools
-  - name: intel-media-va-driver-non-free
-  - name: vainfo
 
-# snap
+# snaps
 snap_list:
   - name: 2fa
   - name: codium
     classic: yes
   - name: gimp
+  - name: spotify
