@@ -12,3 +12,12 @@
 
 - name: Keybindings, rotate screen (ctrl-alt-r)
   command: gsettings set org.gnome.mutter.keybindings rotate-monitor "['XF86RotateWindows', '<Control><Alt>r']"
+
+# see https://unix.stackexchange.com/a/558857 to add more custom keybindings
+- name: Custom Keybindings
+  shell: |
+    gsettings set org.gnome.settings-daemon.plugins.media-keys custom-keybindings "['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/']"
+
+    gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/ binding "<Primary><Alt>g"
+    gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/ command "gedit"
+    gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/ name "Gedit"
