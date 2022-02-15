@@ -1,2 +1,3 @@
 ---
 - src: grog.package
+- src: geerlingguy.docker

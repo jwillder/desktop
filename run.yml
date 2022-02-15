@@ -9,3 +9,4 @@
     - role: mullvad_vpn
     - role: libvirt
     - role: ruby
+    - role: geerlingguy.docker
