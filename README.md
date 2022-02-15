@@ -34,3 +34,9 @@ Install the playbook requirements:
 Now run the playbook for the specified OS, e.g. for Ubuntu 20.04 (Focal Fossa)
 
 `make ubuntu_focal`
+
+## Testing
+
+Changes can be tested on a local VM as specified in `staging.ini`. Once the VM is created run the staging playbook e.g. for Ubuntu 20.04 (Focal Fosa):
+
+`make staging_ubuntu_focal`
